@@ -1,8 +1,10 @@
 //grab the buttons from html
-button = document.querySelector(".move-button");
-console.log(button.innerHTML);
+const userButtons = document.querySelectorAll(".move-button");
 
 //get the computer-choice and outcome elements from html
+
+const computerChoice = document.querySelector("#computer-choice");
+const outcomeText = document.querySelector(".outcome-text");
 
 // user chooses a move:
 
